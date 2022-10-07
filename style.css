@@ -33,7 +33,7 @@ body {
 }
 
 .login-card-logo img {
-    width: 60px;
+    width: 200px;
 }
 
 .login-card-logo,
@@ -72,12 +72,16 @@ body {
     gap: 1.5rem;
 }
 
-.login-card-form .form-item .form-item-icon {
+.login-card-form .form-item .form-item-icons {
     position: absolute;
     top: .82rem;
     left: 1.4rem;
     font-size: 1.3rem;
+}
+
+.form-item-icons {
     opacity: .4;
+
 }
 
 .login-card-form .checkbox {
@@ -86,11 +90,12 @@ body {
     gap: 7px;
 }
 
-.login-card-form.form-item-other {
+.login-card-form, 
+.form-item-other {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: calc(1rem * .8);
+    font-size: calc(1rem * .8rem);
     margin-bottom: .5rem;
 }
 
