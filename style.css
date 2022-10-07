@@ -32,7 +32,7 @@ body {
 }
 
 .login-card-logo img {
-    width: 200px;
+    width: 400px;
 }
 
 .login-card-logo,
@@ -98,7 +98,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: calc(1rem * .8rem);
+    font-size: calc(1rem * .8);
     margin-bottom: .5rem;
 }
 
